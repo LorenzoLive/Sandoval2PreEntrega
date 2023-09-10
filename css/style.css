@@ -4,21 +4,21 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ 
 }
 
-  
-
-header {
-  border-bottom: 1px solid black;
-  text-align: center;
-  padding: 10px 20px;
+.navbar {
+  background-color:whitesmoke
+  overflow: hidden;
 }
+
+
 .encabezado {
   background-color:none;
-  color: rgb(0, 0, 0);
-  text-align: left;
+  color: rgb(224, 224, 224);
+  text-align: right;
   padding: 10px;
-  margin-right: 1500px;
+  margin-right: 1600px;
  
 }
 
@@ -37,17 +37,20 @@ main {
   margin: 20px;
   padding: 20px;
 }
+
 h1 {
   text-align: center;
   text-decoration:none;
   margin: 20px 0px;
 }
-footer {
-  margin: 20px;
-  padding: 20px;
-  border-top: 1px dashed black;
+
+h2 {
+  color: rgb(224, 224, 224) ;
+  font-size: 36px;
+  margin-bottom: 20px;
   text-align: center;
 }
+
 
 .imgInicio {
   position: relative;
@@ -71,6 +74,7 @@ label {
 }
 input[type="text"],
 textarea {
+  
   display: block;
   width: 30%;
   padding: 10px;
@@ -89,3 +93,32 @@ textarea {
   cursor: pointer;
   margin-top: 10px;
 } 
+
+/*Footer*/
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px dashed black;
+  text-align: center;
+}
+
+
+.whatsapp-icon {
+  font-size: 30px;
+  color: green; 
+  margin-right: 10px;
+}
+
+.instagram-icon {
+  font-size: 30px;
+  color:rgb(255, 94, 0);
+  margin-right: 10px;
+}
+
+.facebook-icon {
+  font-size: 30px;
+  color: blue;
+  margin-right: 10px;
+}
+
